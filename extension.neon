@@ -2,8 +2,17 @@ includes:
     - ./../../nunomaduro/larastan/extension.neon
 
 parameters:
+
+    paths:
+        - app
+
+    # The level 9 is the highest level
     level: 8
-    reportUnmatchedIgnoredErrors: false
-    tmpDir: .phpstan
 
     ignoreErrors:
+    #    - '#Unsafe usage of new static#'
+
+    excludePaths:
+    #    - ./*/*/FileToBeExcluded.php
+
+    checkMissingIterableValueType: false
