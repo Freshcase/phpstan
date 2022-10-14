@@ -1,0 +1,18 @@
+{
+    "name": "freshcase/phpstan",
+    "description": "Set of Freshcase rules for PHPStan used company wide",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Kristoffer Aagard Mikkelsen",
+            "email": "kristoffer.aagard@gmail.com"
+        }
+    ],
+    "require": {
+        "nunomaduro/larastan": "^2.2",
+        "phpstan/phpstan": "^1.8.1"
+    }
+}
